@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0  ;
+    box-sizing: border-box;
+    color: black;
+}
+
+.img-galeria{
+    width: 470px;
+    height: auto;
+    
+}
+.contenedor{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+} 
+
+html{
+    height: 100%;
+}
+
+
+.logop{
+    margin-top: 3.5rem;
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 6px;
+    margin-bottom:2.5rem ;
+}
+
+li,ol,ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+.container-total{
+    background: url(/img/PieDePagina.png);
+    background-size: 160%;
+    max-width: 100%;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+body{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 1.6em;
+    /* width: 100vw; */
+  
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    line-height: 1em;
+    color: #4e4a4a;
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    line-height: 1.6em;
+    color: #fcf9fa;
+    text-align: center;
+}
+
+p{
+    
+    margin-bottom: 1.6em;
+    text-align: justify;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+ section{
+    width: 100%;
+    padding: 6rem 2rem;
+    text-align: center;
+} 
+
+section.bienvenida{
+    padding: 4rem 6rem;
+}
+
+.subtitulo{
+    margin-bottom: 6rem;
+}
+  
+.header{
+     background-color: rgb(255, 255, 255);
+     top: 0;
+     width: 100%;
+     overflow: hidden;
+     z-index: 1;
+}
+.header a{
+    
+    font-weight: bold;
+    font-size: 25px;
+    padding: unset;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.938);
+    max-width: 100%;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.navegador a{
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.nav-menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li{
+    font-size: 35px;
+    margin: 50px;
+    line-height: 100%;
+    text-transform: uppercase ;
+
+}
+
+.nav-menu-link{
+    display: block;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover{
+    background-color: #ebe0e0b0;
+    color: rgb(0, 0, 0);
+}
+
+.main{
+    padding-top: 8.5rem;
+    padding-bottom: 100px;
+    
+}
+
+.nav-toggle{
+    color: rgb(117, 116, 116);
+    background:none;
+    border: none;
+    font-size: 55px;
+    padding: 0 20px;
+    line-height: 60px;
+    display:none;
+    cursor: pointer;
+}
+
+
+/*Aquí debajo va el FOOTER*/
+
+footer{
+    width: 100%;
+    background: rgba(167, 147, 147, 0.151);
+    font-size: 2rem;
+    padding-top: 100px;
+}
+footer h2{
+    font-size: 2rem;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    /* margin-top: 100px; */
+    background-color: #f1dbdbb0;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+p.footer{
+    text-align: center;
+    font-size: 2rem;
+}
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 22px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 10px;
+}
+
+.box__footer h2{
+    margin-bottom: 40px;
+    color: #000000;
+    font-weight: 1000;
+}
+
+.box__footer a{
+    margin-top: 12px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.box__footer a:hover{
+    opacity: 0.3;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #4b4b4b;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #000000;
+}
+

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-image: linear-gradient(rgba(20, 20, 20, 0.1),rgba(0,0,0,0.1)),url(/img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+	font-family: 'Times New Roman', Times, serif;
+}
+main{
+	height: 100vh;
+}
+html{
+	font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+	margin-top:2rem;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-weight: lighter;
+}
+h2 {
+	color: rgb(48, 48, 44);
+	font-weight: lighter;
+	font-size: 40px;
+	margin: 30px;
+
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.topnav {
+  	margin-top: 50px;
+  	/* background-color: #2f3a4a; */
+	line-height: 40px;
+	display: block;
+	text-align: center;
+}
+	
+.topnav a {
+	margin:30px;
+  	flex: 1;
+  	/* display: block; */
+  	width:120px;
+  	text-align: center;
+  	padding: 5px 8px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	color:white;
+}
+ 
+.topnav a:hover {
+	border-bottom: 1px solid #ebe0e0b0;
+   
+}
+ 
+
+.topnav .login-container {
+  	float: right;
+	margin-right: 100px;
+  	margin-top: 10px;
+}
+ 
+ 
+.topnav input[type=text] {
+  	padding: 6px;
+  	margin-top: 8px;
+  	font-size: 17px;
+  	border: none;
+	width: 150px; 
+}
+
+
+.topnav .login-container button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #2196F3;
+	color:#fff;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+	background: #ccc;
+}
+.formulario{
+	display: block;
+	
+}
+form{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	font-size: 0.8em;
+	padding: 20px;
+	width: 100%;
+	margin: auto;
+}
+
+input, textarea{
+	border: 0;
+	outline: none;
+	width: 100%;
+	font-size: 15px;
+	padding: 5px;
+}
+.btn-green{
+	background-color: rgb(48, 48, 44);
+	color: whitesmoke;
+}
+.field{
+	border: solid 1px gray;
+	padding: 10px;
+	width: 100%;
+	
+}
+
+
+
+.center-content{
+	text-align: center;
+}
+.map{
+	margin: auto;
+	width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	grid-gap: 2px;
+
+}
+iframe{
+	width: 80%;
+	height: 500px;
+	border:1px solid black;
+	display: block;
+	margin: auto;
+	margin-bottom: 8em;
+}
+.footerL{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+.imag {
+	width: 350px;
+	height: 400px;
+	
+}
+
+
+

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.portada{
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(19, 18, 18, 0.5),rgba(0,0,0,0.5)),url(/img/productosPortada.jpg);
+    background-position:center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top:15px;
+    position: relative;
+}
+.logo{
+    padding-top: 13px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 6px;
+    font-size: 50px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+    margin-top:0px;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 3em;
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    line-height: 40px;
+    padding: 5px 8px;
+}
+nav ul li button{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li button:hover{
+    color: rgb(196, 182, 182);
+}
+nav ul li a:hover{
+    /* color: rgba(196, 182, 182); */
+    border-bottom: 2px solid #ebe0e0b0;
+}
+a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+/* IMAGEN */
+.productos{
+position: relative;
+
+}
+.imagenes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 27px;
+    position: absolute;
+    grid-gap: 5em;
+}
+.imagen1{
+    width: 95%;
+    height:80% ;
+}
+
+.titulo_img{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.comprar{
+    text-align: center;
+    display: block;
+    margin: 10px;
+    color: black;
+    font-size: 24px;
+    font-weight: 200;
+
+}
+.imagen2{
+    width: 28%;
+    height: 23%;
+    display: block;
+    margin: 33px auto;
+}
+
+

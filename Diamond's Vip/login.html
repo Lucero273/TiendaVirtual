@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/diamante.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="full-page">
+
+        <div class="logo">
+            <h1 class="logo">DIAMOND'S VIP</h1>
+        </div>
+
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">EMPRESA</a></li>
+                    <li><a href="productos.html">PRODUCTOS</a></li>
+                    <li><a href="ofertas.html">OFERTAS</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'"
+                            style="width: auto;">REGISTRO</button></li>
+                </ul>
+            </nav>
+            <!--Navegacion terminada  -->
+        </div>
+
+
+        <div id="login-form" class="login-page">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                    <button type="button" onclick="register()" class="toggle-btn">Register</button>
+                </div>
+
+                <!-- FORMULARIO DE REGISTRO -->
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+
+
+                <!-- FORMULARIO DE INICIO DE SESIÓN -->
+                <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="First Name" required>
+                    <input type="text" class="input-field" placeholder="Last Name" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="password" class="input-field" placeholder="Confirm Password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/js/login.js"></script>
+</body>
+
+</html>
